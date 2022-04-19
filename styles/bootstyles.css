@@ -1,0 +1,61 @@
+.linkPosition{
+    float: right;
+}
+ul{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+    /* background-color: #333; */
+}
+li{
+    float: right;
+}
+.title{
+    padding-top: 12.5px;
+    padding-left: 5px;
+    float: left;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+li a:hover {
+    color: rgb(189, 189, 189);
+}
+.header {
+    padding-top: 10px;
+    top: 0px;
+    width: 100%;
+    height: 390px;
+    left: 0px;
+    background-color: #333;
+    background-image: url("../images/analytics.jpg");
+    text-align: center;
+    font-family: sans-serif;
+}
+.centerTitle{
+    padding-top: 75px;
+    font-size: 75px;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.footer{
+    text-align:center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+p{
+    font-size:25px;
+    text-align: center;
+}

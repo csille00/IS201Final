@@ -1,0 +1,67 @@
+.links {
+        font-size: 1.125rem;
+        margin-top: 0;
+        color: rgb(68, 1, 250);
+        text-decoration: underline;        
+}
+.button{
+    margin:auto;
+    float:left;
+}
+.stickyNav {
+    position: fixed;
+    padding-top: 15px;
+}
+body{
+    font-family: 'helvetica';
+}
+.experienceHeader{
+    text-decoration: underline;
+}
+
+.collapsible {
+    background-color: rgb(202, 202, 202);
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .active, .collapsible:hover {
+    background-color: rgb(129, 129, 129);
+  }
+  
+  .content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  .collapsible:after {
+      content: '\02795'; /* Unicode character for "plus" sign (+) */
+      font-size: 13px;
+      color: white;
+      float: right;
+      margin-left: 5px;
+  }
+
+  .active:after {
+      content: "\2796"; /* Unicode character for "minus" sign (-) */
+      color: black;
+  }
+  .collapsibleContent{
+    color: black;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .buttonColor {
+      background-color: #20bd45
+      ;
+  }
